@@ -1,0 +1,54 @@
+name: structure
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=2.19.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get_it: ^7.2.0
+  shared_preferences: ^2.1.0
+  http: ^0.13.5
+  nb_utils: ^5.0.8
+  flutter_bloc: ^8.1.2
+
+  gap: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - lib/
+    - lib/core/
+    - lib/core/data/
+    - lib/core/data/local_data/
+    - lib/core/data/remote_data/
+    - lib/core/local/
+    - lib/core/local/languages/
+    - lib/core/logic/
+    - lib/core/utils/
+    - lib/core/layout/
+    - lib/core/values/
+    - lib/core/widgets/
+    - lib/core/app_store/
+    - lib/core/bottom_navigation_bar/
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic

@@ -1,0 +1,18 @@
+Created by basel on 4/18/2023
+
+This is a concept file with following syntax for each concept.
+# How to use our Bottom Navigation Bar
+* step1
+    Init the tabs of the navigation bar in [tab_item] file.
+* step2
+    Init the navigator Keys in [app] file .
+* step3
+    Build Offstage Navigators by [_buildOffstageNavigator] function in [app] file .
+* step4
+    Init the Bottom Navigation Bar Items in [app] file.
+* step5
+    Init the navigator routes class in [tab_navigator] file.
+* step6
+    Fill the body of the [_routeBuilders] function with just pages
+* step7
+    Add the attributes you want for the Navigation bar
